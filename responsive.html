@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>Responsive</title>
+    <!-- <link rel="stylesheet" href=""> -->
+    <style>
+        header::before {
+            content: "";
+            background: url('peakpx.jpg');
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+            width: 100vw;
+            height: 100vh;
+            opacity: 0.9;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            position: absolute;
+            display: flex;
+            background-color: black;
+            align-items: center;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            padding: 15px 0px;
+            opacity: 0.6;
+            margin: 0px 0px;
+        }
+
+        .navbar a:hover {
+            color: orangered;
+        }
+
+        .navbar {
+            font-family: 'Ubuntu', sans-serif;
+            left: 0px;
+            padding: 10px 20px;
+        }
+
+        .container a {
+            color: white;
+        }
+
+        .best5
+        {
+            position: relative;
+            margin: 200px 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            opacity: 1;
+        }
+        .bitem
+        {
+            width: 13rem;
+            height: 15rem;
+            background-color: black;
+            opacity: 0.6;
+            margin: 12px 30px;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 12px 12px;
+            box-shadow: 0.3rem 0.3rem orangered;
+            
+        }
+        .bestp{
+            position: relative;
+            top: 4rem;
+        }
+
+        .best5 a
+        {
+            border: 2px solid orangered;
+            border-radius: 10px;
+            position: relative;
+            top: 7.5rem;
+            left: 3.8rem;
+            color: black;
+            padding: 2px 8px;
+            background-color: white;
+        }
+        .best5 a:hover
+        {
+            background-color: grey;
+        }
+
+        .bitem:hover{
+            transform: scale(1.17);
+            transition: all 0.42s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar" id="items-1"><a href="">Home</a></div>
+            <div class="navbar" id="items-2"><a href="">Cart</a></div>
+            <div class="navbar" id="items-3"><a href="">Special Offers</a></div>
+            <div class="navbar" id="items-4"><a href="">History</a></div>
+            <div class="navbar" id="items-5"><a href="">Contact Us</a></div>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="best5">
+            <div class="bitem" id="bestitem-1">
+                <p class="bestp">
+                    This place is no more less than heaven for true foodies.
+                </p>
+                <a href="">Order now</a>
+            </div>
+            <div class="bitem" id="bestitem-2">
+                <p class="bestp">
+                    This place is no more less than heaven for true foodies.
+                </p>
+                <a href="">Order now</a>
+            </div>
+            <div class="bitem" id="bestitem-3">
+                <p class="bestp">
+                    This place is no more less than heaven for true foodies.
+                </p>
+                <a href="">Order now</a>
+            </div>
+            <div  class="bitem"id="bestitem-4">
+                <p class="bestp">
+                    This place is no more less than heaven for true foodies.
+                </p>
+                <a href="">Order now</a>
+            </div>
+            <div class="bitem" id="bestitem-5">
+                <p class="bestp">
+                    This place is no more less than heaven for true foodies.
+                </p>
+                <a href="">Order now</a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        
+    </footer>
+</body>
+
+</html>
